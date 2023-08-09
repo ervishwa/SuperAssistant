@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    width: 100vw;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+.navbarbox{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
