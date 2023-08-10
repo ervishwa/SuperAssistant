@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.height{
+    height: 242px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+}

@@ -11,6 +11,7 @@ export function Home() {
     <CategorizeForm/>
     <ClozeForm/>
     <ComprehensionForm/>
+
     </>
   )
 }

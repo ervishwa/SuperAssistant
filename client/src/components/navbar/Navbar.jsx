@@ -7,7 +7,7 @@ export function Navbar() {
         <h1><Link to="/" style={{textDecoration:"none" ,color:"black"}}> Custom Form builder</Link></h1>
         <div className="navbarbox">
         <h3><Link to="/question" style={{textDecoration:"none" ,color:"black"}}>wana Try Questions</Link></h3>
-        <h5>welcome vishnu</h5>
+        <h5>welcome user</h5>
         </div>
         
     </div>
