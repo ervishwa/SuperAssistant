@@ -21,27 +21,6 @@ export const ComprehensionForm = () => {
       answers,
       correctAnswer,
     };
-
-    try {
-      const response = await fetch("https://super-lvuk.onrender.com/api/mcq", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
-
-      if (response.ok) {
-        console.log("Question stored successfully!");
-        setQuestion("");
-        setAnswers(["", "", "", ""]);
-        setCorrectAnswer("1");
-      } else {
-        console.error("Failed to store the question.");
-      }
-    } catch (error) {
-      console.error("Error occurred while storing the question:", error);
-    }
   };
 
   return (

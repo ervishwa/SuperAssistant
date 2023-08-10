@@ -66,7 +66,7 @@ export const CategorizeForm = () => {
   }, [categories]);
 
   const handleSubmit = async () => {
-    // Rest of the handleSubmit code remains unchanged
+   
   };
 
   return (
@@ -85,7 +85,7 @@ export const CategorizeForm = () => {
           />
         </div>
 
-        {/* Categories section */}
+       
         <br />
         <div>
           <h5 className="font-weight-bold mb-2">Categories</h5>
@@ -116,7 +116,7 @@ export const CategorizeForm = () => {
           ))}
         </div>
 
-        {/* Answer section */}
+       
         <br />
         <div>
           <div className="d-flex justify-content-between align-items-center">

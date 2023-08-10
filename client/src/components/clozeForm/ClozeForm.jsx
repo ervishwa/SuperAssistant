@@ -23,27 +23,6 @@ export const ClozeForm = () => {
       sentence: sentence,
       answers: selectedWords,
     };
-
-    fetch("https://super-lvuk.onrender.com/api/questions", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(newQuestion),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Failed to add the question.");
-        }
-        return response.json();
-      })
-      .then(() => {
-        setSentence("");
-        setSelectedWords([]);
-      })
-      .catch((error) => {
-        console.error("Error while adding the question:", error);
-      });
   };
 
   return (
